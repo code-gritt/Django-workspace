@@ -4,3 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 def index (request):
       return HttpResponse("Hello world")
+
+def detail (request):
+      return HttpResponse("you are viewing post details")
